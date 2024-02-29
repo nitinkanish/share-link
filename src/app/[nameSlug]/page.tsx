@@ -11,20 +11,20 @@ const Name:React.FC<NameProps> = ({ params }) => {
   return (
     <>
     <div className="main-wrapper">
-      <div className="container">
+      <div className="container m-auto">
         <div className="inner-container">
 
         <div className="header">
-          <div className="mainlogo">
+          <div className="mainlogo py-4">
             <Link href="">
-              <Image src={logoImage} width={250} height={90} alt="fgxdfgd"></Image>
+              <Image src={logoImage} width={250} height={90} alt="Lit It rewards"></Image>
             </Link>
           </div>
         </div>
         <div className="main-wrapper-inner">
-          <div className="inner-content">
+          <div className="inner-content gap-4">
             <h3>Invited you to join lit.it</h3>
-            <input type="text" value={`https://j.lit.it/${params.nameSlug}`}/>
+            <input type="text" className='text-black' value={`https://j.lit.it/${params.nameSlug}`}/>
             <p>Copy the refferal link and paste it into your phone browser if download button doesn&apos;t work.</p>
           </div>
         </div>
@@ -37,7 +37,6 @@ const Name:React.FC<NameProps> = ({ params }) => {
       </div>
         </div>
     </div>
-    <div>This is my name : {params.nameSlug}</div>
     </>
   )
 }
