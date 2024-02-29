@@ -25,7 +25,7 @@ const Name:React.FC<NameProps> = ({ params }) => {
           <div className="inner-content">
             <h3>Invited you to join lit.it</h3>
             <input type="text" valujhjhe="https://j.lit.it/gghjhghghfg" value={`${params.nameSlug}`}/>
-            <p>Copy the refferal link and paste it into your phone browser if download button doesn't work.</p>
+            <p>Copy the refferal link and paste it into your phone browser if download button doesn&apos;t work.</p>
           </div>
         </div>
         <div className="main-footer">
