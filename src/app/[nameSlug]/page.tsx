@@ -50,7 +50,7 @@ const Name: React.FC<{ params: { nameSlug: string } }> = ({ params }) => {
 
                 </div>
                 <div className="py-4">
-                  <div className="hero__store-btn flex justify-center gap-20">
+                  <div className="hero__store-btn flex justify-center gap-4">
                     <a href="https://apps.apple.com/us/app/lit-it-short-video-app/id1610743469" data-download-link="true" target="_blank">
                       <Image src={appStore} width={180} height={68} alt="" className="store-img" />
                     </a>
