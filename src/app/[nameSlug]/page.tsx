@@ -60,7 +60,7 @@ const Name: React.FC<{ params: { nameSlug: string } }> = ({ params }) => {
                     </a>
                   </div>
                 </div>
-                <p>Copy the refferal link and paste it into your phone browser if download button doesn&apos;t work.</p>
+                <p>Copy the referral code and paste it or enter into your mobile app during the signup process.</p>
               </div>
             </div>
             <div className="main-footer py-4">
