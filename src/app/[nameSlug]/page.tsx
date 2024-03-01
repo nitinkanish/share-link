@@ -42,7 +42,7 @@ const Name: React.FC<{ params: { nameSlug: string } }> = ({ params }) => {
                 <h3>Invited you to join lit.it</h3>
                 <div className="py-4">
                   <div className="relative inline-block">
-                    <input type="text" className='text-black' value={`https://j.lit.it/${params.nameSlug}`} />
+                    <input type="text" className='text-black' value={`${params.nameSlug}`} />
                     <button className='absolute right-4 top-0 bottom-0 m-auto text-black' onClick={handleCopy}>
                       <Image src={copy} width={20} height={20} alt=''></Image>
                     </button>
