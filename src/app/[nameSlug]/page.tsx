@@ -30,16 +30,16 @@ const Name: React.FC<{ params: { nameSlug: string } }> = ({ params }) => {
         <div className="container m-auto">
           <div className="inner-container">
 
-            <div className="header">
+            {/* <div className="header">
               <div className="mainlogo py-4">
                 <Link href="">
                   <Image src={logoImage} width={150} height={60} alt="Lit It rewards"></Image>
                 </Link>
               </div>
-            </div>
+            </div> */}
             <div className="main-wrapper-inner">
               <div className="inner-content gap-4">
-                <h3>Invited you to join lit.it</h3>
+                <h3>{params.nameSlug} Invited you to join lit.it</h3>
                 <div className="py-4">
                   <div className="relative inline-block">
                     <input type="text" className='text-black' value={`${params.nameSlug}`} />
@@ -60,7 +60,7 @@ const Name: React.FC<{ params: { nameSlug: string } }> = ({ params }) => {
                     </a>
                   </div>
                 </div>
-                <p>Copy the referral code and paste it or enter into your mobile app during the signup process.</p>
+                <p>I started earning rewards & LITIT BNB tokens by watching viral videos. You can start earning too, by downloading the app, enter my referral code lucky888 during the sign-up.</p>
               </div>
             </div>
             <div className="main-footer py-4">
